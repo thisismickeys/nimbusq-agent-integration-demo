@@ -1,7 +1,7 @@
 # Nimbus-Q | Agent Integration Demo
 
 Nimbus-Q enables secure, temporary video uploads for AI processing — no long-term storage, no infra bloat.
-This demo shows how an AI agent (like Grok) could integrate with Nimbus-Q using a temporary link flow.
+This demo shows how an AI agent (like Grok, ChatGPT, CLaude, etc.) could integrate with Nimbus-Q using a temporary link flow.
 
 **What’s included:**
 - Example agent call script

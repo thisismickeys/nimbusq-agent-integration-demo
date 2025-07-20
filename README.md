@@ -27,23 +27,6 @@ No backend logic, infrastructure, or deletion system is included here — just t
 5. **Auto-deletion** is triggered by agent confirmation or fallback timer
 
 ---
-
-## 👀 Sample Agent Fetch
-```js
-const fetch = require('node-fetch');
-
-const TEMP_LINK = 'https://temp-nimbus-link.com/abc123'; // example only
-
-async function runAgent() {
-  const response = await fetch(TEMP_LINK);
-  const videoBuffer = await response.arrayBuffer();
-  console.log('Video fetched. AI can now process it.');
-}
-
-runAgent();
-
----
-
 ## 💡 Use Case
 
 Nimbus-Q was designed to give AI agents **real-world video vision** without the storage risks or infra bloat.  
@@ -73,3 +56,17 @@ Check it out in action:
 ---
 
 ## 🚀 Built to let AI agents see the world — without seeing your data.
+
+## 👀 Sample Agent Fetch
+```js
+const fetch = require('node-fetch');
+
+const TEMP_LINK = 'https://temp-nimbus-link.com/abc123'; // example only
+
+async function runAgent() {
+  const response = await fetch(TEMP_LINK);
+  const videoBuffer = await response.arrayBuffer();
+  console.log('Video fetched. AI can now process it.');
+}
+
+runAgent();
